@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+    height: 5000px;
+}
+
+a:hover{
+    color: #cc1db9;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+header .carousel-inner .item{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar-inverse{
+    background-color: white;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+.navbar-inverse .navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    padding: 25px 15px;
+    font-weight: 900;
+    color: #cc1db9!important;
+}
+
+.navbar-right{
+    margin-right: 40px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 25px;
+}
+#home{
+    background-image: linear-gradient(to right, #cc1db9, #853dc1);
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background: #cc1db9;
+}
+
+.navbar-inverse .navbar-header{
+    font-size: 30px;  
+    margin-left: 30px;
+}
+.navbar-inverse .navbar-toggle{
+    color: white;
+    background-color: #222;
+}
+.carousel-caption{
+   
+    margin-bottom: 120px;
+}
+.carousel-caption h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.carousel-caption h2 span{
+    color: #cc1db9;
+}
+
+.carousel-caption a{
+    background-image: -webkit-linear-gradient(145deg,#cc1db9 0%,  #853dc1 100%);
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.carousel-caption a:hover{
+border: 2px solid #cc1db9;
+color: #333;
+background: #fff;
+}
+.carousel-control .right{
+    background-image: none;
+}
+
+.carousel-control .left{
+    background-image: none;
+}
+
+.carousel-indicators .active{
+    background-color: white;
+    border-color: white;
+}
+
+
+
+/* COUNTER */
+
+.stat{
+    background-image: linear-gradient(to right, #cc1db9, #853dc1);
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.stat-items{
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stat-items h2{
+    color: #cc1db9;
+    font-size: 35px;
+    font-weight: 900;
+}
+.stat-items p{
+    color: #262626;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.stat-items i{
+    color: #262626;
+    font-size: 30px;
+}
+
+/* ---------------END OF COUNTER---------- */
+
+/*---------- OUR TARGETS----------- */
+
+.target{
+    padding-top: 20px;
+    padding-bottom: 35px;
+   
+}
+.target h1{
+margin-bottom: 50px;
+}
+.target h1:after{
+    width: 110px;
+    height: 2px;
+    background-color: #cc1db9;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+    .target-box{
+        margin-top: 30px;
+        margin-bottom: 80px;
+        text-align: center;
+        background-color: white;
+
+    }
+    .target-box .target-icon{
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin-bottom: 80px;
+        position: relative;
+    }
+    .target-box .target-icon:before{
+        content: "";
+        border-radius: 50%;
+        background: #860fb5;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        bottom: -10px;
+        right: -10px;
+
+    }
+    .target-box:hover .target-icon:before{
+        background: linear-gradient(to right, #cc1db9, #853dc1);
+    }
+    .target-box .target-icon:after{
+        content: "";
+        width: 4px;
+        height: 0;
+        background: linear-gradient(to right, #cc1db9, #853dc1);
+        margin: 0 auto;
+        position: absolute;
+        bottom: -55px;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .target-box:hover .target-icon:after{
+        height: 45px;
+    }
+
+
+    .target-box .target-icon i{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        line-height: 80px;
+        background: white;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5);
+        font-size: 35px;
+        color: #cc1db9;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    .target-box h3{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+        position: relative;
+        color: rgb(20, 20, 20);
+    }
+    .target-box p{
+        font-size: 17px;
+        font-weight: 300;
+        text-align: center;
+    }
+.target-box .title:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+    margin: 0 auto;
+    box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    border: 5px solid #cc1db9 !important;
+}
+
+
+
+.donate{
+    background-color: #860fb5;
+    color: white;
+}
+.donate-text{
+    font-size: 40px;
+}
+.donate-btn{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #cc1db9;
+}
+.donate-btn:hover{
+    background-color: white;
+    color: #860fb5;
+}
+
+/*---------------- OUR SERVICE----------------- */
+
+.service-area h1:after{
+    width: 130px;
+    height: 2px;
+    background-color: #cc1db9;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+.single-service{
+    background-color: #262626;
+    padding: 20px;
+    transition: all 0.5s ease 0s;
+    border: 2px solid #860fb5;
+    height: 300px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.symbol{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    transition: all 0.4s ease 0s;
+    width: 60px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 60px;
+    height: 60px;
+}
+.service-area .btn{
+    background-color: #cc1db9;
+    font-size: 15px;
+    padding: 7px 20px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    margin: 10px 0;
+}
+.service-area .btn:hover{
+    
+    background:linear-gradient(to right, #cc1db9, #853dc1);
+   
+  
+}
+.single-service h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    top: 90px;
+    transition: all 700ms cubic-bezier(0.65,-0.50,0.255,1.5)0s;
+
+}
+
+.single-service:hover{
+    background:linear-gradient(to right, #cc1db9, #853dc1);
+    cursor: pointer;
+   
+}
+.single-service:hover .symbol{
+    top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.single-service:hover h3{
+    top: 0;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.single-service p{
+    opacity: 0;
+    transition: all 700ms cubic-bezier(0.65,-0.50,0.255,1.5)0s;
+    color: white;
+}
+
+.single-service:hover p{
+    margin-top: 10px;
+opacity: 1;
+transform: scale(1);
+font-size: 15px;
+font-weight: 700;
+}
+.service-area{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+/* --------------TESTIMONIALS STYLE--------------- */
+
+.testimonials h1{
+    padding-top: 50px;
+    font-weight: 400;
+}
+
+.testimonials h1:after{
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+.testimonials img{
+  
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.testimonials{
+    background-attachment: fixed !important;
+    background-color: #222;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    padding-bottom: 100px;
+    
+}
+
+.testimonials .carousel-indicators{
+    bottom: -60px;
+    cursor: pointer;
+}
+
+.testimonials .carousel-inner{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.carousel-indicators li{
+    background-color: white;
+    width: 20px;
+    transition: all 0.5s ease-in;
+}
+
+/* --------OUR PROGRAM----------- */
+.program{
+    margin: 120px 120px;
+}
+.section-header{
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+}
+.section-header h1{
+    font-weight: bold;
+    color: #cc1db9;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section-header p{
+font-size: 18px;
+margin-bottom: 90px;
+text-align: center;
+}
+
+.single-program{
+    text-align: center;
+    background: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px rgba(248, 201, 240, 0.7);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.program-bg{
+    height: 200px;
+    position: relative;
+}
+.program-bg-1{
+    background: url("../img/prg1.jpg");
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.program-bg-2{
+    background: url("../img/prg2.png");
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.program-bg-3{
+    background: url("../img/prg3.jpg");
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.program-bg-4{
+    background: url("../img/prg4.jpg");
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.program-bg-5{
+    background: url("../img/prg5.jpg");
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.program-bg h2{
+    color: #fff;
+    background-image: linear-gradient(to right, #cc1db9, #853dc1);
+    border: 1px solid #860fb5;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 13px;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -25px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.program-bg h2:hover{
+    background: #fff;
+    transition: 0.1s;
+    color: #cc1db9;
+    cursor: pointer;
+    border: 1px solid #860fb5;
+}
+.program-text{
+    padding: 50px 30px 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.program-text p:last-child{
+    margin: 0;
+    line-height: 1.8;
+}
+.program-text i{
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.btn-area{
+    display: inline-block;
+    color: #333;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+    /*---------------- FOOTER---------------- */
+    
+    .footer-top a:hover{
+            text-decoration: none;
+            color: #cc1db9;
+    }
+   
+.footer-top p{
+    color: #999;
+    line-height: 25px;
+    font-size: 14px;
+}
+.footer-top h2,h3{
+    color: #fff;
+    font-weight: bold;
+}
+.footer-top h2{
+    font-size: 22px;
+    
+}
+.footer-top{
+    background: #111;
+    padding: 80px 40px;
+}
+.segment-one h3{
+color: #fff;
+letter-spacing: 3px;
+margin: 10px 0;
+}
+.segment-two h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+    
+}
+.segment-two ul li a{
+    color: rgb(220, 218, 221);
+    font-size: 14px;
+    font-weight: 900;
+}
+.segment-two ul li a:hover{
+    text-decoration: none;
+    color: #cc1db9;
+}
+.segment-three h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.segment-three h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a i{
+    font-size: 17px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px 14px;
+    margin-right: 5px;
+    text-align: center;
+    background: #494848;
+    display: inline-block;
+  
+   
+}
+.segment-three a i:hover{
+  background: #fff;
+  color: #860fb5;
+  font-weight: bold;
+}
+
+
+
+.segment-four h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.segment-four h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-four li{
+    padding: 5px 5px 5px 0;
+    list-style: none;
+}
+.segment-four li a{
+    text-transform: uppercase;
+    color: #ddd;
+
+}
+.segment-four li a i{
+    margin-right: 10px;
+    color: #ccc;
+    font-weight:bold;
+}
+
+.footer-bottom-text{
+    line-height: 75px;
+    background: #000;
+    text-align: center;
+    color: #999;
+    font-weight: 500;
+}
+
+.segment-one{
+    margin-bottom: 10px;
+}
+.segment-two{
+    margin-bottom: 10px;}
+.segment-three{
+    margin-bottom: 10px;}
+.segment-four{
+    margin-bottom: 10px;
+}
+
+
+.subscribe{
+    background-image: linear-gradient(to right, #cc1db9, #853dc1);
+    color: linear-gradient(to right, #cc1db9, #853dc1);
+}
+.jumbotron{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+.jumbotron p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.7);
+}
+.subscribe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.subscribe-text{
+    font-size: 40px;
+    color: white;
+}
+.subscribe-text p{
+color: white;
+}
+.subscribe-btn{
+    background-color: #cc1db9;
+    font-size: 18px;
+    padding: 10px 28px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid white;
+}
+.subscribe-btn:hover{
+    background-color: white;
+    color: #cc1db9;
+    border: 2px solid #cc1db9;
+}
+
+.newsltr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(to right, #cc1db9, #853dc1);
+    color: linear-gradient(to right, #cc1db9, #853dc1);
+}
+.newsltr-text{
+    font-size: 40px;
+    color: white;
+}
+.newsltr-btn{
+    background-color: #cc1db9;
+    font-size: 18px;
+    padding: 10px 28px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid white;
+}
+.newsltr-btn:hover{
+    background-color: white;
+    color: #cc1db9;
+    border: 2px solid #cc1db9;
+}

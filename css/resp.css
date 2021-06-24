@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1200px){
+
+
+    .navbar-header .navbar-brand{
+        font-size: 35px;
+        
+    }
+    .navbar-inverse .navbar-nav > li > a{
+        font-size: 15px;
+        padding-right: 5px;
+        padding-left: 10px;
+    }
+    .carousel-caption h3{
+        font-size: 17px;
+    }
+    .carousel-caption h2{
+        font-size: 40px;
+    }
+    
+    .navbar-inverse .navbar-toggle {
+        margin: 20px 30px;
+        visibility: visible;
+        opacity: 1;
+    }
+    .carousel-caption{
+        margin-bottom: 150px;
+    }
+    .program{
+        margin: 10px 0px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+    .navbar-header .navbar-brand{
+        font-size: 25px;
+        
+    }
+
+    .navbar-inverse .navbar-nav > li > a{
+        font-size: 14px;
+        padding-right: 5px;
+        padding-left: 8px;
+    }
+    
+
+    .navbar-inverse .navbar-header{
+        margin-left: 12px;
+    }
+    .single-program{
+        margin-top: 30px;
+    
+    }
+    .program-bg h2{
+        font-size: 13px;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 768px){
+    .carousel-caption h3{
+        font-size: 15px;
+    }
+    .carousel-caption h2{
+        font-size: 30px;
+    }
+
+    .stat{
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .stat-items{
+        padding: 10px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .stat-items h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .stat-items p{
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .stat-items i{
+        font-size: 25px;
+    }
+    
+    .single-service{
+        padding: 17px;
+        height: 250px;
+        margin: 17px 0;
+    }
+    .symbol{
+        top: 30px;
+        width: 40px;
+        font-size: 20px;
+         line-height: 40px;
+         height: 40px;
+    }
+    .service-area h1{
+        font-size: 20px;
+        font-weight: bold;
+        top: 50px;
+    }
+    .service-area h1:after{
+        width: 100px;
+        margin-top: 15px;
+    }
+    
+    .single-service:hover p{
+        font-size: 12px;
+    }
+    .single-service h3{
+        font-size: 22px;
+    }
+
+
+    
+    .section-header h1{
+        font-size: 30px;
+    }
+    .section-header p{
+        font-size: 15px;
+        margin-bottom: 50px;
+
+        }
+    .testimonials h1{
+        padding-top: 30px;
+        font-weight: 300;
+        font-size: 28px;
+    }
+    .testimonials h1:after{
+        width: 120px;
+        margin-top: 20px;
+    }
+    
+    
+    .testimonials img{
+        width: 300px;
+        height: 300px;
+    }
+    .testimonials .carousel-inner{
+        font-size: 10px;
+        font-weight: 300;
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .footer-top p{
+        font-size: 10px;
+    }
+    .footer-top h2{
+        font-size: 18px;
+        
+    }
+    .footer-top{
+        padding: 30px 5px;
+    }
+    
+}
+
