@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/resp.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- ----------NAVBAR---------- -->
+    <header>
+
+
+
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">UDANY</a>
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" id="home">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">IT</a></li>
+                                <li><a href="#">MANAGEMENT</a></li>
+                                <li><a href="#">AI</a></li>
+                                <li><a href="#">ARTS</a></li>
+                                <li><a href="#">Others</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">View All</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Our Community</a></li>
+                        <li><a href="#">About Us</a></li>
+
+                        <li><a href="#">Contact Us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ----------END OF NAVBAR---------- -->
+
+
+
+
+        <!-- ----------BACKGROUND---------- -->
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active bannner" style="background-image: url('./img/bg19.jpg');">
+
+                    <div class="carousel-caption">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 text-center">
+
+                                <h2 class="animate__animated animate__bounceInRight" style="animation-delay: 1s;">
+                                    WELCOME TO <span>UDANY</span>
+                                </h2>
+                                <h3 class="animate__animated animate__bounceInLeft" style="animation-delay: 2s;">Lorem
+                                    ipsum dolor sit. Lorem
+                                    ipsum dolor sit.</h3>
+                                <p class="animate__animated animate__bounceInRight" style="animation-delay: 3s;"><a
+                                        href="#">Get Started</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bannner" style="background-image: url('./img/bg18.jpg');">
+
+                    <div class="carousel-caption">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-11 text-center">
+                                <h2 class="animate__animated animate__slideInDown" style="animation-delay: 1s;">WELCOME
+                                    TO <span>UDANY</span></h2>
+                                <h3 class="animate__animated animate__fadeInUp" style="animation-delay: 2s;">Lorem ipsum
+                                    dolor sit. Lorem ipsum
+                                    dolor sit.</h3>
+                                <p class="animate__animated animate__zoomIn" style="animation-delay: 3s;"><a
+                                        href="#">Get Started</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bannner" style="background-image: url('./img/bg10.jpg');">
+                    <div class="carousel-caption">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-11 text-center">
+                                <h2 class="animate__animated animate__zoomIn" style="animation-delay: 1s;">WELCOME TO
+                                    <span>UDANY</span></h2>
+                                <h3 class="animate__animated animate__fadeInLeft" style="animation-delay: 2s;">Lorem
+                                    ipsum dolor sit. Lorem ipsum
+                                    dolor sit.</h3>
+                                <p class="animate__animated animate__zoomIn" style="animation-delay: 3s;"><a
+                                        href="#">Get Started</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+    </header>
+
+
+    <!-- ----------END OF BACKGROUND---------- -->
+
+    <!-- ---------COUNTER --------------->
+
+    <section class="stat" id="stats">
+        <div class="content-box">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat-items">
+                            <i class="fa fa-user-plus"></i>
+                            <h2><span class="counter text-center">3390</span><span>+</span></h2>
+                            <p>STUDENTS</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat-items">
+                            <i class="fa fa-user-plus"></i>
+                            <h2><span class="counter text-center">3390</span><span>+</span></h2>
+                            <p>EDUCATORS</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat-items">
+                            <i class="fa fa-user-plus"></i>
+                            <h2><span class="counter text-center">3390</span><span>+</span></h2>
+                            <p>CLIENTS</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stat-items">
+                            <i class="fa fa-user-plus"></i>
+                            <h2><span class="counter text-center">3390</span><span>+</span></h2>
+                            <p>HIRING PARTNERS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ---------END OF COUNTER --------------->
+
+
+    <!---------------TARGET------------->
+
+
+    <div class="target">
+        <h1 class="text-center">Our Targets</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="target-box">
+                        <div class="target-icon">
+                            <i class="fa fa-certificate"></i>
+                        </div>
+                        <h3 class="title">Innovation</h3>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                            repellat
+                            ratione nulla quos minima et.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="target-box pink">
+                        <div class="target-icon">
+                            <i class="fa fa-certificate"></i>
+                        </div>
+                        <h3 class="title">Future Scopes</h3>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                            repellat
+                            ratione nulla quos minima et.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="target-box green">
+                        <div class="target-icon">
+                            <i class="fa fa-certificate"></i>
+                        </div>
+                        <h3 class="title">Growing skills</h3>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                            repellat
+                            ratione nulla quos minima et.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="target-box yellow">
+                        <div class="target-icon">
+                            <i class="fa fa-certificate"></i>
+                        </div>
+                        <h3 class="title">Career Planning</h3>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                            repellat
+                            ratione nulla quos minima et.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- END OF ---------------TARGET--------------->
+
+    <div class="container">
+        <div class="jumbotron subscribe">
+            <h2 class="subscribe-text">
+                Email Subscription</h2>
+            <p>Be the first to get notified on upcoming events, scholarship or any news latest updates.</p><br>
+           
+            <button class="btn btn-primary subscribe-btn">Subscibe Now</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- ----------OUR SERVICE---------- -->
+
+
+    <div class="service-area section-pading">
+        <h1 class="text-center">Service We Provide</h1>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-service">
+                        <div class="symbol">
+                            <i class="fa fa-apple"></i>
+                        </div>
+                        <h3>IT</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A similique ab nostrum beatae iste.
+                            Eveniet delectus at iure perferendis accusantium.</p>
+
+                    </div>
+                    <button class="btn btn-primary">Watch More</button>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-service">
+                        <div class="symbol">
+                            <i class="fa fa-apple"></i>
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A similique ab nostrum beatae iste.
+                            Eveniet delectus at iure perferendis accusantium.</p>
+
+                    </div>
+                    <button class="btn btn-primary">Watch More</button>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-service">
+                        <div class="symbol">
+                            <i class="fa fa-apple"></i>
+                        </div>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A similique ab nostrum beatae iste.
+                            Eveniet delectus at iure perferendis accusantium.</p>
+                    </div>
+                    <button class="btn btn-primary">Watch More</button>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-service">
+                        <div class="symbol">
+                            <i class="fa fa-camera"></i>
+                        </div>
+                        <h3>Photography</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A similique ab nostrum beatae iste.
+                            Eveniet delectus at iure perferendis accusantium.</p>
+                    </div>
+                    <button class="btn btn-primary">Watch More</button>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-service">
+                        <div class="symbol">
+                            <i class="fa fa-camera"></i>
+                        </div>
+                        <h3>Soft Skills</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A similique ab nostrum beatae iste.
+                            Eveniet delectus at iure perferendis accusantium.</p>
+                    </div>
+                    <button class="btn btn-primary">Watch More</button>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-service">
+                        <div class="symbol">
+                            <i class="fa fa-camera"></i>
+                        </div>
+                        <h3>Data Science</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A similique ab nostrum beatae iste.
+                            Eveniet delectus at iure perferendis accusantium.</p>
+                    </div>
+                    <button class="btn btn-primary">Watch More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ----------END OF OUR SERVICES---------- -->
+
+
+    <div class="container-fluid">
+        <div class="jumbotron donate">
+            <h2 class="donate-text">
+                Welcome! Support Us To Grow</h2><br>
+            <button class="btn btn-primary donate-btn">Donate Now</button>
+        </div>
+    </div>
+
+
+
+    <!-- ---------OUR PROGRAM---------- -->
+
+    <div class="program">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header">
+                        <h1 class="text-center">Programs & Upcoming Events</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae vel nostrum quae
+                            est quo? Reiciendis repellendus molestiae totam esse cupiditate, et ducimus voluptas
+                            minima illum fugit quod.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-program">
+                        <div class="program-bg program-bg-1">
+                            <h2>
+                                EXPLORE NOW
+                            </h2>
+                        </div>
+                        <div class="program-text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae vel nostrum quae
+                                est quo? Reiciendis repellendus molestiae totam esse cupiditate, et ducimus voluptas
+                                minima illum fugit quod.</p>
+                            <a href="#" class="btn-area">Read More<i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-program">
+                        <div class="program-bg program-bg-2">
+                            <h2>
+                                EXPLORE NOW
+                            </h2>
+                        </div>
+                        <div class="program-text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae vel nostrum quae
+                                est quo? Reiciendis repellendus molestiae totam esse cupiditate, et ducimus voluptas
+                                minima illum fugit quod.</p>
+                            <a href="#" class="btn-area">Read More<i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-program">
+                        <div class="program-bg program-bg-3">
+                            <h2>
+                                EXPLORE NOW
+                            </h2>
+                        </div>
+                        <div class="program-text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae vel nostrum quae
+                                est quo? Reiciendis repellendus molestiae totam esse cupiditate, et ducimus voluptas
+                                minima illum fugit quod.</p>
+                            <a href="#" class="btn-area">Read More<i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-program">
+                        <div class="program-bg program-bg-4">
+                            <h2>
+                                EXPLORE NOW
+                            </h2>
+                        </div>
+                        <div class="program-text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae vel nostrum quae
+                                est quo? Reiciendis repellendus molestiae totam esse cupiditate, et ducimus voluptas
+                                minima illum fugit quod.</p>
+                            <a href="#" class="btn-area">Read More<i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-program">
+                        <div class="program-bg program-bg-5">
+                            <h2>
+                                EXPLORE NOW
+                            </h2>
+                        </div>
+                        <div class="program-text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae vel nostrum quae
+                                est quo? Reiciendis repellendus molestiae totam esse cupiditate, et ducimus voluptas
+                                minima illum fugit quod.</p>
+                            <a href="#" class="btn-area">Read More<i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- ----------TESTIMONIALS---------- -->
+
+
+
+    <section class="testimonials" id="testimonial">
+        <h1 class="text-center">Response We Recieve</h1>
+
+        <div class="container-fluid">
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+                            <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+                            <li data-target="#carousel-testimonials" data-slide-to="3"></li>
+                            <li data-target="#carousel-testimonials" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active text-center">
+                                <img src="./img/bg13.jpg" class="center-block">
+                                <h2>Jeni Thompson</h2>
+                                <h4>Web Developer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illo praesentium
+                                    impedqui fuga? Dolorum cumque dicta esse eaque, dolore eos iste modi at
+                                    nesciunt repellendus vel voluptas soluta?</p>
+                            </div>
+                            <div class="item text-center">
+                                <img src="./img/bg14.jpg" class="center-block">
+                                <h2>John Smith</h2>
+                                <h4>Photographar</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illo praesentium
+                                    impedqui fuga? Dolorum cumque dicta esse eaque, dolore eos iste modi at
+                                    nesciunt repellendus vel voluptas soluta?</p>
+                            </div>
+                            <div class="item text-center">
+                                <img src="./img/bg15.jpg" class="center-block">
+                                <h2>Sophia Thomas</h2>
+                                <h4>Python Developer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illo praesentium
+                                    impedqui fuga? Dolorum cumque dicta esse eaque, dolore eos iste modi at
+                                    nesciunt repellendus vel voluptas soluta?</p>
+                            </div>
+                            <div class="item text-center">
+                                <img src="./img/bg16.jpg" class="center-block">
+                                <h2>Suzan Jones</h2>
+                                <h4>Data Analyst</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illo praesentium
+                                    impedqui fuga? Dolorum cumque dicta esse eaque, dolore eos iste modi at
+                                    nesciunt repellendus vel voluptas soluta?</p>
+                            </div>
+                            <div class="item text-center">
+                                <img src="./img/bg17.jpg" class="center-block">
+                                <h2>Lia Smith</h2>
+                                <h4>Java Developer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illo praesentium
+                                    impedqui fuga? Dolorum cumque dicta esse eaque, dolore eos iste modi at
+                                    nesciunt repellendus vel voluptas soluta?</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- ----------END OF Testimonials---------- -->
+
+
+    <div class="container-fluid">
+        <div class="jumbotron newsltr">
+            <h2 class="newsltr-text">
+                Subcribe For Newsletter</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita a voluptas animi esse quisquam,
+                numquam consectetur illum</p><br>
+            <button class="btn btn-primary newsltr-btn">Register Now</button>
+        </div>
+    </div>
+
+
+
+   
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+                        <h3>UDANY</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolore deleniti iste libero
+                            quia maxime sint laborum amet, possimus illum aliquid cumque voluptate nihil accusamus
+                            labore temporibus eveniet animi enim.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+                        <h2>About Us</h2>
+                        <ul>
+                            <li><a href="">LINK1</a></li>
+                            <li><a href="">LINK1</a></li>
+                            <li><a href="">LINK1</a></li>
+                            <li><a href="">LINK1</a></li>
+                            <li><a href="">LINK1</a></li>
+                            <li><a href="">LINK1</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+                        <h2>Follow Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolore deleniti iste libero
+                            quia maxime sint laborum amet, possimus illum aliquid cumque voluptate nihil accusamus
+                            labore temporibus eveniet animi enim.</p>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-youtube"></i></a>
+                        <a href=""><i class="fa fa-pinterest"></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+                        <h2>Contact Us</h2>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-phone"></i>+1234567890</a></li>
+                            <li><a href="#"><i class="fa fa-envelope-o"></i>udany@domain.com</a></li>
+                            <li><a href="#"><i class="fa fa-map-marker"></i>321,Salt Lake,Kolkata</a></li>
+                            <li><a href="#"><i class="fa fa-globe"></i>www.udany.com</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom-text">All Right Reserved By &copy;UDANY|2020</div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 500,
+            });
+        });
+    </script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+    <!-- <script src="./bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- <script src="./bootstrap/js/bootstrap.js"></script> -->
+</body>
+
+</html>
